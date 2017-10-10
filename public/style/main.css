@@ -1,0 +1,115 @@
+.hide {
+  display: none;
+}
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+  display: none !important;
+}
+.header-menu {
+  background-color: #122b40;
+  color: #8c8c8c;
+}
+.header-menu .header-menu-category a {
+  text-decoration: none;
+  outline: none;
+  white-space: nowrap;
+  display: inline-block;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #8c8c8c;
+}
+.header-menu .header-menu-category a:hover {
+  background-color: #8c8c8c;
+  color: black;
+}
+.header-menu .user-menu {
+  text-align: right;
+}
+.header-menu .user-menu img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #8c8c8c;
+  border: 1px solid #222222;
+  margin-top: 3px;
+  cursor: pointer;
+}
+.header-menu .user-menu ul {
+  right: 0px;
+}
+.header-menu ul {
+  background-color: #122b40;
+  padding: 0px;
+}
+.header-menu ul li {
+  padding: 10px;
+  border-bottom: 1px solid #222222;
+  cursor: pointer;
+}
+.header-menu ul li:hover {
+  background-color: #8c8c8c;
+  color: black;
+}
+.header-menu ul li:last-child {
+  border-bottom: none;
+}
+.task-info {
+  background-color: #adadad;
+  border: solid 1px #000000;
+  margin: 15px 0px;
+}
+.task-info .number-task {
+  padding-top: 45px;
+}
+.task-info .task-info-wrap {
+  background-color: lightslategrey;
+}
+.task-info .task-info-wrap p {
+  padding: 10px;
+}
+.error-msg,
+.success-msg {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+.error-msg {
+  background-color: red;
+}
+.success-msg {
+  background-color: green;
+}
+.create-task textarea {
+  width: 100%;
+  margin: 15px 0px;
+}
+.create-task button {
+  padding: 10px;
+  background-color: lightslategrey;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.login-form .login-input input {
+  width: 300px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+  margin: 15px 0px;
+}
+.login-form button {
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: lightslategrey;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 3px;
+}

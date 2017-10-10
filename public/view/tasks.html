@@ -1,0 +1,11 @@
+<ul ng-controller="taskController"
+    ng-init="taskController.getTasks()" class="container">
+    <li ng-repeat="task in taskController.allTasks track by $index" class="task-info row">
+        <div class="number-task col-md-2 col-sm-2 col-xs-2 text-center">{{$index+1}}</div>
+        <div class="task-info-wrap col-md-10 col-sm-10 col-xs-10">
+            <p>Process id: {{task.idProcess}}</p>
+            <p>Task code: {{task.taskCode}}</p>
+            <p>Task result: {{task.resultTask}}</p>
+        </div>
+    </li>
+</ul>

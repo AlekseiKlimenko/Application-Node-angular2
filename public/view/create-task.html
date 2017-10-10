@@ -1,0 +1,15 @@
+<div class="container" ng-controller="taskController">
+    <div class="row">
+        <form class="col-md-12 col-sm-12 col-xs-12 create-task" ng-submit="taskController.createTask()">
+            <div>
+                <textarea name="" id="" cols="30" rows="10" ng-model="taskController.taskText"></textarea>
+            </div>
+            <button ng-disabled = "!taskController.taskText" type="submit">Отправить задачу</button>
+        </form>
+    </div>
+    <div ng-show="taskController.infoMsgError || taskController.createTaskSuccess"
+         ng-class="{'error-msg': taskController.infoMsgError,'success-msg': taskController.createTaskSuccess}"
+         class="col-md-12 col-sm-12 col-xs-12">
+        {{taskController.infoMsgError || taskController.createTaskSuccess}}
+    </div>
+</div>
